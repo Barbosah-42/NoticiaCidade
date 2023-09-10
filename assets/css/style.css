@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../img/fundo.png) repeat-x;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    list-style: none;
+    text-decoration: none;
+}
+
+body.home #nav-menu a#home,
+body.brasil #nav-menu a#brasil,
+body.internacional #nav-menu a#internacional
+{
+    cursor: text;
+    color: #b10333;
+    background: #fff;
+    border-radius: 50px;
+}
+
+/* FORMATAÇÃO CABEÇALHO */
+
+#container{
+    width: 750px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 152px;
+    height: 66px;
+    background: url(/assets/img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+#nav-menu{
+    height: 150px;
+    width: 750px;
+    margin: 0 auto;
+    background: url(/assets/img/detalhe-topo.png) no-repeat right center;
+    padding-top: 20px;
+}
+
+#nav-menu ul{
+    float: left;
+    background: rgb(177, 3, 51);
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+#nav-menu ul li{
+    float: left;
+}
+
+#nav-menu ul li a {
+    display: block;
+    text-transform: capitalize;
+    color: #fff;
+    background: url(/assets/img/divisor.png) no-repeat left center;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    padding: 0.7rem 1.3rem;
+}
+
+#nav-menu ul .primerio a{
+    background: none;
+}
+
+#nav-menu ul a:hover{
+    color: #b10333;
+    background: #fff;
+    border-radius: 50px;
+}
+
+
+
+
+
+
