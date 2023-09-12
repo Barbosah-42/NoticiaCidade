@@ -27,13 +27,14 @@ body.internacional #nav-menu a#internacional
     border-radius: 50px;
 }
 
-/* FORMATAÇÃO CABEÇALHO */
-
-#container{
-    width: 750px;
-    border: 1px solid red;
-    margin: 0 auto;
+h2.titulo{
+    background-color: #294c71;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.3rem;
 }
+
+/* FORMATAÇÃO CABEÇALHO */
 
 #logo{
     width: 152px;
@@ -81,8 +82,58 @@ body.internacional #nav-menu a#internacional
     border-radius: 50px;
 }
 
+/* FORMATAÇÃO MAIN */
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#primario{
+    background-color: antiquewhite;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    background-color: antiquewhite;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    background-color: antiquewhite;
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa{
+    background: #f3f3f3 url(/assets/img/fundo-caixa.png);
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.caixa-conteudo{
+    
+}
+
+img.imagem-principal{
+    width: 98%;
+}
 
 
+/* FORMATAÇÃO RODAPÉ*/
 
+#container-radape{
+    clear: both;
+}
 
+#rodape{
+    text-align: center;
+    padding: 20px;
+}
 
