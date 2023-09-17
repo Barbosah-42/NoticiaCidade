@@ -39,7 +39,7 @@ h2.titulo{
 #logo{
     width: 152px;
     height: 66px;
-    background: url(/assets/img/logo.png) no-repeat center;
+    background: url(../img/logo.png) no-repeat center;
     text-indent: -3000px;
 }
 
@@ -47,7 +47,7 @@ h2.titulo{
     height: 150px;
     width: 750px;
     margin: 0 auto;
-    background: url(/assets/img/detalhe-topo.png) no-repeat right center;
+    background: url(../img/detalhe-topo.png) no-repeat right center;
     padding-top: 20px;
 }
 
@@ -66,7 +66,7 @@ h2.titulo{
     display: block;
     text-transform: capitalize;
     color: #fff;
-    background: url(/assets/img/divisor.png) no-repeat left center;
+    background: url(../img/divisor.png) no-repeat left center;
     font-size: 0.9rem;
     line-height: 1rem;
     padding: 0.7rem 1.3rem;
@@ -120,7 +120,7 @@ body#uma-colunas #primario{
 
 /* CAIXA */
 .caixa{
-    background: #f3f3f3 url(/assets/img/fundo-caixa.png);
+    background: #f3f3f3 url(../img/fundo-caixa.png);
     margin: 10px 0;
     padding: 5px 0 5px 0;
 }
@@ -128,7 +128,7 @@ body#uma-colunas #primario{
 .caixa-conteudo{
     padding: 5px;
     background: #fff;
-    margin-top: 5px;
+    margin: 5px;
 
 }
 
@@ -140,15 +140,50 @@ body#uma-colunas #primario{
     text-transform: capitalize;
 }
 
-.caixa-conteudo h3 {
+.caixa-conteudo h3{
     display: inline;
     font-size: 0.9rem;
     background-color: #b10333;
     color: #fff;
     text-transform: uppercase;
+    padding: px;
 }
 
+/* FORMATANDO LATERAL*/ 
 
+#lateral ul li a{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: #0a0a0a;
+    padding: 3px;
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 30px;
+    display: block;
+}
+
+#lateral ul li a:hover{
+    padding-left: 20px;
+    color: gray;
+    background: url(../img/marcador.png) no-repeat left center;
+}
+
+#lateral input[type="e-mail"]{
+    width: 150px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+#lateral input[type="submit"]{
+    background-color: rgb(177, 3, 51);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 /* FORMATAÇÃO RODAPÉ*/
 
@@ -159,5 +194,7 @@ body#uma-colunas #primario{
 #rodape{
     text-align: center;
     padding: 20px;
+    background-color: #294c71;
+    color: #fff;
 }
 
