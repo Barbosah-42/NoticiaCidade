@@ -90,40 +90,64 @@ h2.titulo{
     margin-top: 60px;
 }
 
-#primario{
-    background-color: antiquewhite;
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-}
-
-#secundario{
-    background-color: antiquewhite;
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 15px;
-}
-
 #lateral{
-    background-color: antiquewhite;
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
 }
 
+body#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+body#duas-colunas #primario{
+    width: 555px;
+}
+
+body#uma-colunas #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* CAIXA */
 .caixa{
     background: #f3f3f3 url(/assets/img/fundo-caixa.png);
-    padding: 5px;
     margin: 10px 0;
+    padding: 5px 0 5px 0;
 }
 
 .caixa-conteudo{
-    
+    padding: 5px;
+    background: #fff;
+    margin-top: 5px;
+
 }
 
-img.imagem-principal{
-    width: 98%;
+.caixa h2 {
+    font-size: 1.1rem;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+    text-transform: capitalize;
 }
+
+.caixa-conteudo h3 {
+    display: inline;
+    font-size: 0.9rem;
+    background-color: #b10333;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 
 
 /* FORMATAÇÃO RODAPÉ*/
