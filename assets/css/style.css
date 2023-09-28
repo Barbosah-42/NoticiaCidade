@@ -19,7 +19,7 @@ ul a{
 
 body.home #nav-menu a#home,
 body.brasil #nav-menu a#brasil,
-body.internacional #nav-menu a#internacional
+body.fotos #nav-menu a#fotos
 {
     cursor: text;
     color: #b10333;
@@ -72,7 +72,7 @@ h2.titulo{
     padding: 0.7rem 1.3rem;
 }
 
-#nav-menu ul .primerio a{
+#nav-menu ul .primeiro a{
     background: none;
 }
 
@@ -103,10 +103,12 @@ body#tres-colunas #primario{
 }
 
 body#duas-colunas #primario{
+    float: left;
     width: 555px;
+    margin: 0 0 20px 195px;
 }
 
-body#uma-colunas #primario{
+body#uma-coluna #primario{
     width: 750px;
     float: left;
     margin: 0 0 20px 0;
@@ -181,12 +183,20 @@ body#uma-colunas #primario{
     font-size: 0.8em;
     color: #3e7ab9;
     background: none;
+    padding: 0;
 }
 
 .lista-noticia li a p{
-    font-size: 0.7rem;
-    color: #0a0a0a;
+font-size: 0.7rem;
+color: #0a0a0a;
 }
+
+.lista-noticia li:hover{
+    background-color: #ccc;
+    transition: all 0.5s ease-out 0s;
+    border-radius: 3px;
+}
+
 
 /* FORMATANDO LATERAL*/ 
 
